@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel with Us</title>
+    <script src="tour.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+
+</style>
+
+<body>
+    <header id="header" class="header">
+        <section id="searchbar" class="sea">
+            <div id="close">
+                <img id="closesearch" onclick="searching()" src="white-cross-icon-3.jpg"
+                    alt="Error in loading image">
+            </div>
+            <form action="#">
+                <div id="search1">
+                    <input id="searching_bar" type="text" placeholder="search here...">
+                    <div id="buttons">
+                        <button id="reset" type="reset"><img id="cross" src="white-cross-icon-3.jpg"
+                                alt=""></button>
+                        <button id="submit" type="submit"><img id="sbar" src="search - Copy.png"
+                                alt="Error "></button>
+                    </div>
+                </div>
+                </div>
+            </form>
+        </section>
+        <section class="tophead">
+            <div class="lefttop">
+                <img id="logo" src="trekking.png" alt="Error loading in image">
+                <div id="tra">Travel.</div>
+            </div>
+            <div id="midtop" class="midtopclass">
+                <ul>
+                    <li><a  onclick="home()">Home</a></li>
+                    <li><a onclick="about()">About</a></li>
+                    <li><a  onclick="shop()">Shop</a></li>
+                    <li><a  onclick="packages()">Packages</a></li>
+                    <li><a  onclick="reviews()">Reviews</a></li>
+                    <li><a  onclick="blogs()">Blogs</a></li>
+                </ul>
+            </div>
+            <div class="righttop" id="ryttop">
+                <img id="shoppingkart" src="shopping-cart.png" alt="Error loading in image">
+                <img id="search" onclick="searching()" src="search.png" alt="Error in loading image">
+                <div id="hamburger" onclick="clickmenu()">
+                    <div id="first_row"></div>
+                    <div id="second_row"></div>
+                    <div id="third_row"></div>
+
+                </div>
+            </div>
+        </section>
+
+        <div class="controller">
+            <span id="left" onclick="imageslider1()">&#10094</span>
+            <span id="right" onclick="imageslider()">&#10095</span>
+        </div>
+        <section>
+            <div id="container" class="container">
+                <div id="never">Never Stop</div>
+                <div id="exploring">EXPLORING</div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel expedita, adipisci alias sint a ab.</p>
+                <div id="getstart">
+                    <a href="">Get Started</a>
+                </div>
+            </div>
+            <div id="container1" class="container1 visi" style="display: none;">
+                <div id="never1">Make Tour</div>
+                <div id="exploring1">AMAZING</div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel expedita, adipisci alias sint a ab.</p>
+                <div id="getstart1">
+                    <a href="">Get Started</a>
+                </div>
+            </div>
+            <div id="container2" class="container2 visi" style="display: none;">
+                <div id="never2">Explore The</div>
+                <div id="exploring2">NEW WORLD</div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel expedita, adipisci alias sint a ab.</p>
+                <div id="getstart2">
+                    <a href="">Get Started</a>
+                </div>
+            </div>
+        </section>
+    </header>
+    <section id="adventure">
+        <div id="idea">Adventure Idea!</div>
+        <div class="outerbox">
+            <div class="box">
+                <img class="adimage" src="category-1.jpg" alt="Error in loading image">
+                <div class="boxhead">Bungee Jumping</div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, similique!</p>
+                <div class="startbtn">
+                    <a href="">Get Started</a>
+                </div>
+            </div>
+            <div class="box">
+                <img class="adimage" src="category-2.jpg" alt="Error in loading image">
+                <div class="boxhead">Zip Lines</div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, similique!</p>
+                <div class="startbtn">
+                    <a href="">Get Started</a>
+                </div>
+            </div>
+            <div class="box">
+                <img class="adimage" src="category-3.jpg" alt="Error in loading image">
+                <div class="boxhead">Canoeing</div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, similique!</p>
+                <div class="startbtn">
+                    <a href="">Get Started</a>
+                </div>
+            </div>
+            <div class="box">
+                <img class="adimage" src="category-4.jpg" alt="Error in loading image">
+                <div class="boxhead">Boating</div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, similique!</p>
+                <div class="startbtn">
+                    <a href="">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="memorable">
+        <img id="aboutimg" src="about-img.jpg" alt="">
+        <div id="out">
+            <div id="outdoor">Memorable Outdoor Experiences</div>
+            <p class="para id=" outpara1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sed autem magni
+                voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, voluptatem impedit vel unde
+                enim eum!</p>
+            <p class="para" id="outpara2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda beatae qui
+                perspiciatis ratione mag</p>
+            <div id="aboutbtn" class="startbtn">
+                <a href="">Get Started</a>
+            </div>
+        </div>
+    </section>
+    <section id="products">
+        <div class="controller1">
+            <span id="left1" onclick="zara_left()">&#10094</span>
+            <span id="right1" onclick="zara_right()">&#10095</span>
+        </div>
+        <div id="prohead">Featured Products</div>
+        <div id=featured>
+            <div id="afreen1" class="mainbox1">
+                <div class="featuredbox" onmouseover="productslider()" onmouseout="productslider1()">
+                    <img id="proimage" class="prod " src="product-1.jpg" alt="Error">
+                    <div id="iconics" class="prodvisible1 " onmouseout="productslider" onmouseover="productslider">
+                        <img class="iconic" src="share.png" alt="Error">
+                        <img class="iconic" src="information-button.png" alt="Error">
+                        <img class="iconic" src="shopping-cart.png" alt="Error">
+                    </div>
+                </div>
+                <div class="feahead">Survival Kit</div>
+                <div class="amount">$5-$30</div>
+                <div id="aboutbtn" class="startbtn">
+                    <a href="">Shop Now</a>
+                </div>
+            </div>
+            <div id="afreen2" class="mainbox2">
+                <div class="featuredbox" onmouseover="productslider_1()" onmouseout="productslider1_1()">
+                    <img id="proimage1" class="prod " src="product-2.jpg" alt="">
+                    <div id="iconics1" class="prodvisible1 ">
+                        <img class="iconic" src="share.png" alt="">
+                        <img class="iconic" src="information-button.png" alt="">
+                        <img class="iconic" src="shopping-cart.png" alt="">
+                    </div>
+                </div>
+                <div class="feahead">Survival Kit</div>
+                <div class="amount">$5-$30</div>
+                <div id="aboutbtn" class="startbtn">
+                    <a href="">Shop Now</a>
+                </div>
+            </div>
+            <div id="afreen3" class="mainbox3">
+                <div class="featuredbox" onmouseover="productslider_2()" onmouseout="productslider1_2()">
+                    <img id="proimage2" class="prod " src="product-3.jpg" alt="">
+                    <div id="iconics2" class="prodvisible1 ">
+                        <img class="iconic" src="share.png" alt="">
+                        <img class="iconic" src="information-button.png" alt="">
+                        <img class="iconic" src="shopping-cart.png" alt="">
+                    </div>
+                </div>
+                <div class="feahead">Survival Kit</div>
+                <div class="amount">$5-$30</div>
+                <div id="aboutbtn" class="startbtn">
+                    <a href="">Shop Now</a>
+                </div>
+            </div>
+            <div id="afreen4" class="mainbox4">
+                <div class="featuredbox" onmouseover="productslider_3()" onmouseout="productslider1_3()">
+                    <img id="proimage3" class="prod " src="product-4.jpg" alt="">
+                    <div id="iconics3" class="prodvisible1 ">
+                        <img class="iconic" src="share.png" alt="">
+                        <img class="iconic" src="information-button.png" alt="">
+                        <img class="iconic" src="shopping-cart.png" alt="">
+                    </div>
+                </div>
+                <div class="feahead">Survival Kit</div>
+                <div class="amount">$5-$30</div>
+                <div id="aboutbtn" class="startbtn">
+                    <a href="">Shop Now</a>
+                </div>
+            </div>
+            <div id="afreen5" class="mainbox5">
+                <div class="featuredbox" onmouseover="productslider_4()" onmouseout="productslider1_4()">
+                    <img id="proimage4" class="prod " src="product-5.jpg" alt="">
+                    <div id="iconics4" class="prodvisible1 ">
+                        <img class="iconic" src="share.png" alt="">
+                        <img class="iconic" src="information-button.png" alt="">
+                        <img class="iconic" src="shopping-cart.png" alt="">
+                    </div>
+                </div>
+                <div class="feahead">Survival Kit</div>
+                <div class="amount">$5-$30</div>
+                <div id="aboutbtn" class="startbtn">
+                    <a href="">Shop Now</a>
+                </div>
+            </div>
+            <div id="afreen6" class="mainbox6">
+                <div class="featuredbox" onmouseover="productslider_5()" onmouseout="productslider1_5()">
+                    <img id="proimage5" class="prod " src="product-6.jpg" alt="">
+                    <div id="iconics5" class="prodvisible1 ">
+                        <img class="iconic" src="share.png" alt="">
+                        <img class="iconic" src="information-button.png" alt="">
+                        <img class="iconic" src="shopping-cart.png" alt="">
+                    </div>
+                </div>
+                <div class="feahead">Survival Kit</div>
+                <div class="amount">$5-$30</div>
+                <div id="aboutbtn" class="startbtn">
+                    <a href="">Shop Now</a>
+                </div>
+            </div>
+            <div class="controller2">
+                <span id="left2" onclick="zara_left()">&#10094</span>
+                <span id="right2" onclick="zara_right()">&#10095</span>
+            </div>
+        </div>
+        <!-- <div><button onclick="zara()">Function</button></div> -->
+    </section>
+    <section id="package">
+        <div id="packhead">Popular Packages</div>
+        <div class="packmainbox">
+            <div id="packbox1" class="packbox" onmouseover="packagefun()"" onmouseout=" packagefun1()">
+                <img class="packimg" src="img-1.jpg" alt="">
+                <div id="packhead1" class="packboxhead">Featured Tour Package</div>
+                <p id="toh1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, illum!</p>
+                <span class="amount">$250-$500</span>
+                <div id="packbtn" class="packbtn">
+                    <a class="expl" id="pack1" href="">Explore Now</a>
+                </div>
+            </div>
+            <div id="packbox2" class="packbox" onmouseover="packagefun_1()"" onmouseout=" packagefun1_1()">
+                <img class="packimg" src="img-2.jpg" alt="">
+                <div id="packhead2" class="packboxhead">Featured Tour Package</div>
+                <p id="toh2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, illum!</p>
+                <span class="amount">$250-$500</span>
+                <div id="packbtn" class="packbtn">
+                    <a class="expl" id="pack2" href="">Explore Now</a>
+                </div>
+            </div>
+            <div id="packbox3" class="packbox" onmouseover="packagefun_2()"" onmouseout=" packagefun1_2()">
+                <img class="packimg" src="img-3.jpg" alt="">
+                <div id="packhead3" class="packboxhead">Featured Tour Package</div>
+                <p id="toh3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, illum!</p>
+                <span class="amount">$250-$500</span>
+                <div id="packbtn" class="packbtn">
+                    <a class="expl" id="pack3" href="">Explore Now</a>
+                </div>
+            </div>
+            <div id="packbox4" class="packbox" onmouseover="packagefun_3()"" onmouseout=" packagefun1_3()">
+                <img class="packimg" src="img-4.jpg" alt="">
+                <div id="packhead4" class="packboxhead">Featured Tour Package</div>
+                <p id="toh4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, illum!</p>
+                <span class="amount">$250-$500</span>
+                <div id="packbtn" class="packbtn">
+                    <a class="expl" id="pack4" href="">Explore Now</a>
+                </div>
+            </div>
+            <div id="packbox5" class="packbox" onmouseover="packagefun_4()"" onmouseout=" packagefun1_4()">
+                <img class="packimg" src="img-5.jpg" alt="">
+                <div id="packhead5" class="packboxhead">Featured Tour Package</div>
+                <p id="toh5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, illum!</p>
+                <span class="amount">$250-$500</span>
+                <div id="packbtn" class="packbtn">
+                    <a class="expl" id="pack5" href="">Explore Now</a>
+                </div>
+            </div>
+            <div id="packbox6" class="packbox" onmouseover="packagefun_5()"" onmouseout=" packagefun1_5()">
+                <img class="packimg" src="img-6.jpg" alt="">
+                <div id="packhead6" class="packboxhead">Featured Tour Package</div>
+                <p id="toh6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, illum!</p>
+                <span class="amount">$250-$500</span>
+                <div id="packbtn" class="packbtn">
+                    <a class="expl" id="pack6" href="">Explore Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="clientsection" class="clientsection">
+        <div id="clienthead">Client's Reviews</div>
+        <div id="clientmain" class="clientclass">
+            <div id="client1" class="client">
+                <div class="reviewpara">
+                    <p class="review">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias exercitationem
+                        tempora ipsum harum accusamus itaque numquam, velit laborum, vel, hic quasi doloribus enim amet
+                        facilis vero cumque minus ratione aut.</p>
+                </div>
+                <div class="cli">
+                    <img class="clientimg" src="pic-1.png" alt="">
+                    <div class="clientinfo">
+                        <div>John Deo</div>
+                        <div>Designer</div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="client2" class="client">
+                <div class="reviewpara">
+                    <p class="review">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias exercitationem
+                        tempora ipsum harum accusamus itaque numquam, velit laborum, vel, hic quasi doloribus enim amet
+                        facilis vero cumque minus ratione aut.</p>
+                </div>
+                <div class="cli">
+                    <img class="clientimg" src="pic-2.png" alt="">
+                    <div class="clientinfo">
+                        <div>John Deo</div>
+                        <div>Designer</div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="client3" class="client ">
+                <div class="reviewpara">
+                    <p class="review">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias exercitationem
+                        tempora ipsum harum accusamus itaque numquam, velit laborum, vel, hic quasi doloribus enim amet
+                        facilis vero cumque minus ratione aut.</p>
+                </div>
+                <div class="cli">
+                    <img class="clientimg" src="pic-3.png" alt="">
+                    <div class="clientinfo">
+                        <div>John Deo</div>
+                        <div>Designer</div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="client4" class="client">
+                <div class="reviewpara">
+                    <p class="review">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias exercitationem
+                        tempora ipsum harum accusamus itaque numquam, velit laborum, vel, hic quasi doloribus enim amet
+                        facilis vero cumque minus ratione aut.</p>
+                </div>
+                <div class="cli">
+                    <img class="clientimg" src="pic-4.png" alt="">
+                    <div class="clientinfo">
+                        <div>John Deo</div>
+                        <div>Designer</div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="client5" class="client">
+                <div class="reviewpara">
+                    <p class="review">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias exercitationem
+                        tempora ipsum harum accusamus itaque numquam, velit laborum, vel, hic quasi doloribus enim amet
+                        facilis vero cumque minus ratione aut.</p>
+                </div>
+                <div class="cli">
+                    <img class="clientimg" src="pic-5.png" alt="">
+                    <div class="clientinfo">
+                        <div>John Deo</div>
+                        <div>Designer</div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="controller3">
+            <span id="left3" onclick="reviews_left()">&#10094</span>
+            <span id="right3" onclick="review_right()">&#10095</span>
+        </div>
+    </section>
+    <section class="offer">
+        <div id="whatweoffer">What We Offer</div>
+        <div class="offermainbox">
+            <div class="offerbox">
+                <div>
+                    <img src="serv-1.png" alt="Error loading in img">
+                </div>
+                <div class="complete">Complete Guide</div>
+                <div class="paraclass">
+                    <p class="offerid">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem
+                        necessitatibus
+
+                    </p>
+                </div>
+                <div class="offerbtn" class="offerbtn">
+                    <a class="tripbtn" href="">Explore Now</a>
+                </div>
+            </div>
+            <div class="offerbox">
+                <div>
+                    <img src="serv-2.png" alt="Error loading in img">
+                </div>
+                <div class="complete">Custom Packages</div>
+                <div class="paraclass">
+                    <p class="offerid">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem
+                        necessitatibus
+                    </p>
+                </div>
+                <div id="offerbtn" class="offerbtn">
+                    <a class="tripbtn" href="">Explore Now</a>
+                </div>
+            </div>
+            <div class="offerbox">
+                <div>
+                    <img src="serv-3.png" alt="Error loading in img">
+                </div>
+                <div class="complete">Family Trips</div>
+                <div class="paraclass">
+                    <p class="offerid">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem
+                        necessitatibus
+                    </p>
+                </div>
+                <div id="offerbtn" class="offerbtn">
+                    <a class="tripbtn" href="">Explore Now</a>
+                </div>
+            </div>
+            <div class="offerbox">
+                <div>
+                    <img src="serv-4.png" alt="Error loading in img">
+                </div>
+                <div class="complete">Train Guides</div>
+                <div class="paraclass">
+                    <p class="offerid">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem
+                        necessitatibus
+                        aspernatur dolorum illo harum odio ten
+                    </p>
+                </div>
+                <div id="offerbtn" class="offerbtn">
+                    <a class="tripbtn" href="">Explore Now</a>
+                </div>
+            </div>
+            <div class="offerbox">
+                <div>
+                    <img src="serv-5.png" alt="Error loading in img">
+                </div>
+                <div class="complete">Adventure Trail</div>
+                <div class="paraclass">
+                    <p class="offerid">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem
+                        necessitatibus
+                        aspernatur dolorum illo harum odio ten
+                    </p>
+                </div>
+                <div id="offerbtn" class="offerbtn">
+                    <a class="tripbtn" href="">Explore Now</a>
+                </div>
+            </div>
+            <div class="offerbox">
+                <div>
+                    <img src="serv-6.png" alt="Error loading in img">
+                </div>
+                <div class="complete">Various Adventure</div>
+                <div class="paraclass">
+                    <p class="offerid">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem
+                        necessitatibu
+                    </p>
+                </div>
+                <div id="offerbtn" class="offerbtn">
+                    <a class="tripbtn" href="">Explore Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="dailypost">
+        <div id="posthead">Our Daily Post</div>
+        <div class="postmainbox">
+            <div id="postbox1" class="postbox" onmouseover="packagefun()"" onmouseout=" packagefun1()">
+                <img class="postimg" src="img-6.jpg" alt="">
+                <div id="posthead1" class="postboxhead">Featured Tour Package</div>
+                <p id="toh1" class="postpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, illum!
+                </p>
+                <div class="likeandcomment">
+                    <div>
+                        <img id="likeimg1" src="like.png" alt="Error loading in img"
+                            onclick="likeclick1()">
+                        <img id="likepic1" src="likewithred.png" alt="Error loading in img"
+                            onclick="likeclick1()">
+
+                        <span id="like1">845</span>
+                    </div>
+                    <div>
+                        <img src="comment.png" alt="Error loading in img">
+                        <span>1.2k</span>
+                    </div>
+
+                </div>
+                <div id="packbtn" class="packbtn">
+                    <a class="expl" id="pack1" href="">Explore Now</a>
+
+                </div>
+            </div>
+            <div id="postbox2" class="postbox" onmouseover="packagefun()" onmouseout=" packagefun1()">
+                <img class="postimg" src="img-5.jpg" alt="">
+                <div id="posthead1" class="postboxhead">Featured Tour Package</div>
+                <p id="toh1" class="postpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, illum!
+                </p>
+                <div class="likeandcomment">
+                    <div>
+                        <img id="likeimg2" src="like.png" alt="Error loading in img"
+                            onclick="likeclick2()">
+                        <img id="likepic2" src="likewithred.png" alt="Error loading in img"
+                            onclick="likeclick2()">
+                        <span id="like2">945</span>
+                    </div>
+                    <div>
+                        <img src="comment.png" alt="Error loading in img">
+                        <span>1.6k</span>
+                    </div>
+
+                </div>
+                <div id="packbtn" class="packbtn">
+                    <a class="expl" id="pack1" href="">Explore Now</a>
+
+                </div>
+            </div>
+            <div id="postbox3" class="postbox" onmouseover="packagefun()"" onmouseout=" packagefun1()">
+                <img class="postimg" src="img-4.jpg" alt="">
+                <div id="posthead1" class="postboxhead">Featured Tour Package</div>
+                <p id="toh1" class="postpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, illum!
+                </p>
+                <div class="likeandcomment">
+                    <div>
+                        <img id="likeimg3" src="like.png" alt="Error loading in img"
+                            onclick="likeclick3()">
+                        <img id="likepic3" src="likewithred.png" alt="Error loading in img"
+                            onclick="likeclick3()">
+                        <span id="like3">845</span>
+                    </div>
+                    <div>
+                        <img src="comment.png" alt="Error loading in img">
+                        <span>1.2k</span>
+                    </div>
+
+                </div>
+                <div id="packbtn" class="packbtn">
+                    <a class="expl" id="pack1" href="">Explore Now</a>
+
+                </div>
+            </div>
+            <div id="postbox4" class="postbox" onmouseover="packagefun()"" onmouseout=" packagefun1()">
+                <img class="postimg" src="img-3.jpg" alt="">
+                <div id="posthead1" class="postboxhead">Featured Tour Package</div>
+                <p id="toh1" class="postpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, illum!
+                </p>
+                <div class="likeandcomment">
+                    <div>
+                        <img id="likeimg4" src="like.png" alt="Error loading in img"
+                            onclick="likeclick4()">
+                        <img id="likepic4" src="likewithred.png" alt="Error loading in img"
+                            onclick="likeclick4()">
+                        <span id="like4">987</span>
+                    </div>
+                    <div>
+                        <img src="comment.png" alt="Error loading in img">
+                        <span>1.8k</span>
+                    </div>
+                </div>
+                <div id="packbtn" class="packbtn">
+                    <a class="expl" id="pack1" href="">Explore Now</a>
+
+                </div>
+            </div>
+            <div id="postbox5" class="postbox" onmouseover="packagefun()"" onmouseout=" packagefun1()">
+                <img class="postimg" src="img-2.jpg" alt="">
+                <div id="posthead1" class="postboxhead">Featured Tour Package</div>
+                <p id="toh1" class="postpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, illum!
+                </p>
+                <div class="likeandcomment">
+                    <div>
+                        <img id="likeimg5" src="like.png" alt="Error loading in img"
+                            onclick="likeclick5()">
+                        <img id="likepic5" src="likewithred.png" alt="Error loading in img"
+                            onclick="likeclick5()">
+                        <span id="like5">645</span>
+                    </div>
+                    <div>
+                        <img src="comment.png" alt="Error loading in img">
+                        <span>1.05k</span>
+                    </div>
+
+                </div>
+                <div id="packbtn" class="packbtn">
+                    <a class="expl" id="pack1" href="">Explore Now</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="controller4">
+            <span id="left4" onclick="post_left()">&#10094</span>
+            <span id="right4" onclick="post_right()">&#10095</span>
+        </div>
+    </section>
+    <section class="subscribe">
+        <div id="subhead">Subscribe Now</div>
+        <div id="subpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sint, deserunt debitis dolores
+            expedita dolor incidunt vio ab aliquam culpa iure labore commodi. Nam, quam hic.</div>
+        <form action="" id="emaildiv">
+            <input type="email" id="email" placeholder="Enter Your Email">
+            <button type="submit" id="submitbtn">Subscribe</button>
+        </form>
+    </section>
+    <section id="server">
+        <img id="serverimg1" src="client-logo-1.png" alt="">
+        <img id="serverimg2" src="client-logo-2.png" alt="">
+        <img id="serverimg3" src="client-logo-3.png" alt="">
+        <img id="serverimg4" src="client-logo-4.png" alt="">
+
+    </section>
+    <footer class="footer">
+        <div id="footerbox1">
+            <div class="footbox">
+                <div class="foothead"> Quick Link</div>
+                <ul>
+                    <li><a href=""> Home</a> </li>
+                    <li><a href=""> About</a> </li>
+                    <li><a href=""> Shop</a> </li>
+                    <li><a href=""> Packages</a> </li>
+                    <li><a href=""> Reviews</a> </li>
+                    <li><a href=""> Blogs</a> </li>
+                </ul>
+            </div>
+            <div class="footbox">
+                <div class="foothead">Extra Link</div>
+                <ul>
+                    <li><a href=""> My Account</a></li>
+                    <li><a href=""> My Order</a></li>
+                    <li><a href=""> My Wishlist</a></li>
+                    <li><a href=""> Ask Questions</a></li>
+                    <li><a href=""> Terms Of Use</a></li>
+                    <li><a href=""> Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footbox">
+                <div class="foothead">Contact Info</div>
+                <ul>
+                    <li><a href=""> +123-456-789</a></li>
+                    <li><a href=""> +111-222-333</a></li>
+                    <li><a href=""> kamaan523@gmail.com</a></li>
+                    <li><a href=""> Delhi </a></li>
+                </ul>
+            </div>
+            <div class="footbox">
+                <div class="foothead">Follow Us</div>
+                <ul>
+                    <li><a href=""> Facebook</a></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href=""> Linkedin</a></li>
+                    <li><a href=""> Github</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="created">Created By <span style="color:#219150 ;">Amaan Khan </span> | All rights Reversed!</div>
+    </footer>
+</body>
+
+</html>
